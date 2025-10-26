@@ -2,31 +2,24 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Maya Mau
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.A.
+      institution: Wellesley College, Wellesley MA, USA
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Computer Programming and Problem Solving (Python), Data Structures (Java), Databases with Web Interfaces (JavaScript, HTML, CSS, MongoDB, Linux), Foundations of Computer Systems (C), Theory of Computation, Human-Computer Interaction (Bootstrap, Figma), Principles of Programming Languages (Racket, OCaml)
+        - Fundamentals of Chemistry, Chemical Analysis and Equilibrium, Organic Chemistry I & II, Physical Chemistry I, Inorganic Chemistry
+    - title: cross-registered student
+      institution: Massachusetts Institute of Technology, Cambridge MA, USA
+      year: 2023 - 2024
+      description: 
+        - Introduction to Algorithms (Python), Machine Learning (Python)
 
 - title: Experience
   type: time_table
@@ -94,4 +87,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Jewelry making, hiking, walking between cities, etc.

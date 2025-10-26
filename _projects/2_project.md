@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: hapestry
+description: A neural network genotyper to predict the existence of structural variants in DNA.
 img: assets/img/3.jpg
 importance: 2
 category: work

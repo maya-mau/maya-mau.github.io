@@ -1,81 +1,52 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: MolVisWeb
+description: A web-based, accessible, 3D molecular visualization software platform to increase access to STEM education. 
+img: assets/img/molvisweb/thumbnail.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In my senior year, I completed an undergraduate thesis in the Computer Science and Chemistry departments. I was advised by <a href="https://www.wellesley.edu/people/mala-radhakrishnan">Dr. Mala Radhakrishnan</a> in the Chemistry Department and <a href="https://www.wellesley.edu/people/scott-anderson">Dr. Scott Anderson</a> in the Computer Science Department, with additional mentorship from members of my thesis committee in human-computer interaction and software development. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/video/molvisweb_demo.mp4" title="MolVisWeb software demo" class="img-fluid autoplay rounded z-depth-1" %}
+    <div class="caption">
+        Above, I provide a quick video demonstration of how MolVisWeb functions.
+    </div>
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/molvisweb/thesis_cover_page.png" title="Thesis Cover Page" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+Chemical bonding is a critical part of learning introductory chemistry, but is often a difficult concept for students to grasp. The <a href="https://pubs.acs.org/doi/full/10.1021/acs.jchemed.4c00036">EMMAs</a> (Exploring Molecular Modeling Activities) are a series of educational activities designed by <i>Kotsalidis et al.</i> to teach high school chemistry students about noncovalent bonding through case studies and exploratory exercises using the 3D molecular visualization tool <a href="https://www.ks.uiuc.edu/Research/vmd/">VMD</a> (Visual Molecular Dynamics). However, VMS isn't available on Chromebookes, the most commonly-used PCs by high school students, and it also requires installation. Thus, the motivation behind my thesis is to build and evaluate a web-based molecular visualization interface that implements the EMMAs, which will make these activities accessible to more students.
+
+Check out the <a href="https://github.com/maya-mau/molvisweb_thesis_version">gihub repository</a> to see my code, and <a href="https://maya-mau.github.io/molvisweb_thesis_version/">MolVisWeb</a> itself to experiment with the platform and hopefully learn something new about drug-protein interactions. MolVisWeb was mainly coded in Javascript using the package <a href="https://threejs.org/">Three.js</a> to render 3D visuals. 
+
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/thesis_defense.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption col-sm-4">
+        A photo from my successful thesis defense in May 2025. From left to right: <a href="https://cs.wellesley.edu/~cbassem/">Dr. Christine Bassem</a>, <a href="https://www.wellesley.edu/people/vinitha-gadiraju">Dr. Vinitha Gadiraju</a>, <a href="https://www.wellesley.edu/people/scott-anderson">Dr. Scott Anderson</a>, myself, <a href="https://www.wellesley.edu/people/mala-radhakrishnan">Dr. Mala Radhakrishnan</a>, and <a href="https://www.wellesley.edu/people/ann-velenchik">Dr. Ann Velenchik</a>. 
+    </div>
+</div>
+
+<br>
+Lastly, some fun bloopers from my many hours of late-night coding and debugging. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! I am a recent <a href='wellesley.edu'>Wellesley College</a> graduate ('25) who studied Computer Science and Chemistry. Currently, I'm interested developing in accessible STEM tools for education and research.
+Welcome! I am a recent <a href='https://www.wellesley.edu'>Wellesley College</a> graduate ('25) who studied Computer Science and Chemistry. Currently, I'm interested developing in accessible STEM tools for education and research.
 
 Throughout my undergraduate journey I had the opportunity to engage in several research experiences, all of which culminated in my senior thesis in Chemistry education and software development. You can learn more about that project, and others, in the <b>projects</b> section of this site. 
 

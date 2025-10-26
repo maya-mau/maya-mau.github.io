@@ -29,7 +29,7 @@ Check out the <a href="https://github.com/maya-mau/molvisweb_thesis_version">gih
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/molvisweb/thesis_defense.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/thesis_defense.jpg" title="Group photo at thesis defense" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption col-sm-4">
         A photo from my successful thesis defense in May 2025. From left to right: <a href="https://cs.wellesley.edu/~cbassem/">Dr. Christine Bassem</a>, <a href="https://www.wellesley.edu/people/vinitha-gadiraju">Dr. Vinitha Gadiraju</a>, <a href="https://www.wellesley.edu/people/scott-anderson">Dr. Scott Anderson</a>, myself, <a href="https://www.wellesley.edu/people/mala-radhakrishnan">Dr. Mala Radhakrishnan</a>, and <a href="https://www.wellesley.edu/people/ann-velenchik">Dr. Ann Velenchik</a>. 
@@ -41,12 +41,12 @@ Lastly, some fun bloopers from my many hours of late-night coding and debugging.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_1.png" title="a blooper" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_2.png" title="another blooper" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/molvisweb/blooper_3.png" title="last blooper" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

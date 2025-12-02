@@ -4,26 +4,36 @@ layout: default
 {% unless site.data.resume %}
   <div class="post">
     <header class="post-header">
+
       <h1 class="post-title">
-        {{ page.title }}
         {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
+          {% comment %}Compute PDF URL once{% endcomment %}
+          {% if page.cv_pdf contains '://' %}
+            {% assign cv_href = page.cv_pdf %}
+          {% else %}
+            {% assign cv_href = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+          {% endif %}
+
+          <p class="accessible-pdf-link">
+            Download the 
+            <a href="{{ cv_href }}" target="_blank" rel="noopener noreferrer">
+              PDF version
+            </a> 
+            {% if page.cv_gdoc %}
+              or the 
+              <a href="{{ page.cv_gdoc }}" target="_blank" rel="noopener noreferrer">
+                Google Doc version
+              </a>
+            {% endif %}            
+            of this CV.
+          </p>
         {% endif %}
       </h1>
+
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
+      
     </header>
 
     <article>
@@ -55,26 +65,36 @@ layout: default
 {% else %}
   <div class="post">
     <header class="post-header">
+        
       <h1 class="post-title">
-        {{ page.title }}
         {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
+          {% comment %}Compute PDF URL once{% endcomment %}
+          {% if page.cv_pdf contains '://' %}
+            {% assign cv_href = page.cv_pdf %}
+          {% else %}
+            {% assign cv_href = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+          {% endif %}
+
+          <p class="accessible-pdf-link">
+            Download the 
+            <a href="{{ cv_href }}" target="_blank" rel="noopener noreferrer">
+              PDF version
+            </a> 
+            {% if page.cv_gdoc %}
+              or the 
+              <a href="{{ page.cv_gdoc }}" target="_blank" rel="noopener noreferrer">
+                Google Doc version
+              </a>
+            {% endif %}            
+            of this CV.
+          </p>
         {% endif %}
       </h1>
+      
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
+
     </header>
 
     <article>

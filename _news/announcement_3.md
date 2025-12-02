@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented with Radlab at Wellesley's annual Ruhlman Conference! :sparkles: :smile:
+Presented with Radlab at Wellesley's annual Ruhlman Conference!

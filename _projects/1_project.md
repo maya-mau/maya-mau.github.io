@@ -10,6 +10,8 @@ related_publications: false
 
 In my senior year, I completed an undergraduate thesis in the Computer Science and Chemistry departments. I was advised by <a href="https://www.wellesley.edu/people/mala-radhakrishnan">Dr. Mala Radhakrishnan</a> in the Chemistry Department and <a href="https://www.wellesley.edu/people/scott-anderson">Dr. Scott Anderson</a> in the Computer Science Department, with additional mentorship from members of my thesis committee in human-computer interaction and software development. 
 
+To access a copy of my senior thesis, visit the following pdf: <a href="WCTC_2025_MauMaya_BuildingAndAsse.pdf">Building and Assessing a Web-based, Accessible, Three-Dimensional Modeling Tool to allow High School Students to Explore Molecular Structure, Intermolecular Interactions, and Molecular Dynamics Simulations</a>. 
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include video.liquid path="assets/video/molvisweb_demo.mp4" title="MolVisWeb software demo" class="img-fluid autoplay rounded z-depth-1" %}

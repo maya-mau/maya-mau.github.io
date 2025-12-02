@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Click the PDF symbol on the right side of the screen to access a PDF of my curriculum vitae. Updated October 25, 2025.",
+          description: "Below is a version of my curriculum vitae. PDF and Google Doc versions are available above. Updated December 2, 2025.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-presented-with-radlab-at-wellesley-s-annual-ruhlman-conference-sparkles-smile",
-          title: 'Presented with Radlab at Wellesley’s annual Ruhlman Conference! :sparkles: :smile:',
+            },},{id: "news-presented-with-radlab-at-wellesley-s-annual-ruhlman-conference",
+          title: 'Presented with Radlab at Wellesley’s annual Ruhlman Conference!',
           description: "",
           section: "News",},{id: "news-and-the-next-day-my-thesis-is-submitted-sleep-deprived-but-happy",
           title: '…and the next day, my thesis is submitted! Sleep-deprived but happy.',

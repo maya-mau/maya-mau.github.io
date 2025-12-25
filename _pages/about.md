@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science | Accessible STEM | Fullstack Development
+subtitle: Computer Science | Accessible Technology & STEM | Computational Natural Sciences
 
 profile:
   align: right
@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! I am a recent <a href='https://www.wellesley.edu'>Wellesley College</a> graduate ('25) who studied Computer Science and Chemistry. Currently, I'm interested developing in accessible STEM tools for education and research.
+Welcome! I am a recent <a href='https://www.wellesley.edu'>Wellesley College</a> graduate ('25) who studied Computer Science and Chemistry. Currently, I'm interested developing in accessible technology for education and research.
 
 Throughout my undergraduate journey I had the opportunity to engage in several research experiences, all of which culminated in my senior thesis in Chemistry education and software development. You can learn more about that project, and others, in the <b>projects</b> section of this site. 
 
-In my free time, I run a small business making nature-inspired wire jewelry pieces. Check out my <a href='https://www.youtube.com/@itsawildmaya'>Youtube</a> and <a href='https://www.etsy.com/shop/madebymayajewelry'>Etsy</a> if you'd like to see what I create. On any given day you can also find me walking absurdly long distances with friends, playing with my cats, or biking.
+In my free time, I run a small business making nature-inspired wire jewelry pieces. Check out my <a href='https://www.youtube.com/@itsawildmaya'>Youtube</a> and <a href='https://www.etsy.com/shop/madebymayajewelry'>Etsy</a> if you'd like to see what I create. On any given day you can also find me walking absurdly long distances with friends, playing with my cats, or biking. Like every recent graduate in their early 20's, I am currently training for a half marathon in April. 

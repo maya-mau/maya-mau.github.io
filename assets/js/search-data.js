@@ -412,6 +412,16 @@ ninja.data = [{
           description: "A web-based, accessible, 3D molecular visualization software platform to increase access to STEM education.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-hapestry",
+          title: 'Hapestry',
+          description: "A neural network genotyper to predict the existence of structural variants in DNA.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-newwithtags",
+          title: 'NewWithTags',
+          description: "A fashion-based social media platform for users to share outfit pictures and track fashion trends by location.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',

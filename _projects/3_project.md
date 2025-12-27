@@ -8,7 +8,7 @@ category: work
 related publications: false
 ---
 
-In CS 304: Databases and Web Interfaces, I completed my first full-stack application in a team of four. We created NewWithTags, a fashion-based social media platform that would allow users to post outfit pictures and tag them by location and aesthetic. Once the site was populated with posts, users could sort posts by geographical and aesthetic tags to track trends by major city. 
+In CS 304: Databases and Web Interfaces, I created my first full-stack application in a team of four. We created NewWithTags, a fashion-based social media platform that allows users to post outfit pictures and tag them by location and aesthetic. Once the site is populated with posts, users can sort posts by geographical and aesthetic tags to track trends by major city. 
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -30,13 +30,13 @@ We used MongoDB for the backend database and Javascript, HTML/CSS, and Bootstrap
     </div>
 </div>
 
-The NewWithTags application has a few main pages: the home page, login/sign up page, create page, and individual post pages. When first opening NewWithTags, users are shown the home page where all posts are displayed. Posts can be sorted by most liked/recent, or filtered by city/trend. Once clicked on, posts are given their own page where users can see a caption, comments, likes, and interact with the post if they are logged in. 
+The NewWithTags application has a few main pages: the home page, login/sign up page, create page, and individual post pages. When first opening NewWithTags, users are shown the home page where all posts are displayed. Posts can be sorted by most liked or most recent, or filtered by city or trend. Currently, posts can be filtered by either city or trend, but not both--a feature our team discussed we would implement if the social media application was launched. Posts are given their own page once clicked on where users can see a caption, comments, likes, and interact with the post if they are logged in. 
 
 
 <div class="row">
     <div class="col-sm-6">
         <p>Users can either create a new account or log into an existing one. Passwords are encrypted using bcrypt and usernames must be unique. If the username or password is incorrect on login, an error message will appear using flashes. Examples of error messages a user can receive are shown on the left. Once a user is logged in, they can view their own posts and posts that they've liked.</p>
-        <p>More robust error messaging would be helpful to inform users of the application state, and may be necessary if this application was launched.</p>
+        <p>More robust error messaging would be helpful to inform users of the application state, and is something our team discussed would need to be implemented if this application was launched.</p>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/newwithtags/login_error.png" title="The login/sign up page with a message reading, 'Login failed. Check your username and password and try again.' at the top of the page." class="img-fluid rounded z-depth-1" %}
@@ -47,12 +47,13 @@ The NewWithTags application has a few main pages: the home page, login/sign up p
 One of the challenges of this project was integrating sorting with filtering in the backend database. We used aggregation pipelines to fetch data from the database, which were complex but worked well when implemented. While we only learned MongoDB, a NoSQL database, it fit our social media application use-case. If this application was launched, we might need to shard the database across multiple servers to distribute load and improve performance, depending on the number of users and frequency of use. 
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/newwithtags/my_posts_page.png" title="My posted and liked posts page." class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="caption col-sm-4">
-        The profile page of the NewWithTags web application for users that are logged in, showing a logo in the top left (NWT), profile details, and buttons to show the user's created and liked posts. 
-    </div>
+    {% include figure.liquid loading="eager" path="assets/img/newwithtags/my_posts_page.png" title="My posted and liked posts page." class="img-fluid rounded z-depth-1" %}
+</div>
+
+<div class="caption">
+    The profile page of the NewWithTags web application for users that are logged in, showing a logo in the top left (NWT), profile details, and buttons to show the user's created and liked posts. 
 </div>
 
 Because NewWithTags was a final project was for a full-stack web development course, every member of the team contributed to all levels of the stack. I was responsible for certain sorting capabilities and backend database structures, and created the script to reset and populate the database with sample posts, users, comments, and likes--something that enabled us to experiment with features while retaining a polished version of the application for presentation. 
+
+Ultimately, this was one of my favorite projects from my undergraduate coursework and taught gave me valuable experience in fullstack development, user design, and the software development cycle. Our team met weekly, assigning deliverables and helping each other with bugs and blockers. We presented NewWithTags to our class at the end of the semester (with a few hiccups, because live demonstrations are never a good idea), and received positive feedback from our professor and peers.
